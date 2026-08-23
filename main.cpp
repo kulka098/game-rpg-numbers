@@ -6,6 +6,7 @@
 #include <clocale>
 #include <algorithm>
 #include <vector>
+#include <windows.h>
 #include "enum class.hpp"
 #include "struct Player.hpp"
 #include "vectors.hpp"
@@ -16,7 +17,9 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, ".1250");
+    SetConsoleCP(1250);
+    SetConsoleOutputCP(1250);
     srand(time(0));
     
     while (true)

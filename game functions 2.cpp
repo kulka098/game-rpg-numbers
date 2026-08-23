@@ -19,7 +19,7 @@ Player player;
 
 menu przejscieDoSecret()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     int postac;
 
@@ -214,7 +214,7 @@ menu przejscieDoSecret()
 
 menu intro()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     int opcja;
     menu wybor;
@@ -243,7 +243,7 @@ menu intro()
 
 menu fabula_secret()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     cout << "Fabu?a";
     return menu::fabula_secret;
@@ -251,7 +251,7 @@ menu fabula_secret()
 
 menu Hel_zabka()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     while(true)
     {
@@ -387,7 +387,7 @@ menu Hel_zabka()
 
 menu Hel_dworzec()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     menu wybor;
     int pomidor;
@@ -418,7 +418,7 @@ menu Hel_dworzec()
 
 menu Hel_park()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     cout << "\nW parku jedynie dosz?o do bójki z menelami o butelki kaucyjne- przez brak pieni?dzy ukrad?e?/-a?\nim 50 butelek kaucyjnych.\nJednak uda?o Ci si? uciec przed nimi i znale?? miejsce do spania.\n";
     cout << "*ranek*\n";
@@ -429,7 +429,7 @@ menu Hel_park()
 
 menu Hel_wydmy()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     string pomidor;
     cout << "\nWydmy, piasek i trawa. Nic ciekawego ale daje ti to nutk? utraconej codzienno?ci, po kilku godzinach \nudajesz si? znowu do ?abki.\n";
@@ -446,7 +446,7 @@ menu Hel_wydmy()
 
 menu Hel_szpital()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     cout << "Je?li trafi?e?/-a? tutaj przez jedzenie z ?abki, to si? okaza?o ?e tylko masz zatrucie pokarmowe, przep?ukali Ci ?o??dek, dali leki i odes?ali do domu (ty w Helu nie masz domu biedaku).\n";
     cout << "Aby si? wydosta? z tego przekl?tego miasta, uda?e?/-a? si? na dworzec autobusowy, skoro poci?gi s? jakie?... nawiedzone to innej opcji nie ma.\n\n";
@@ -455,7 +455,7 @@ menu Hel_szpital()
 
 menu Hel_autobus()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     string pomidor;
     cout << "Okaza?o si?, ?e wycofali autobusy poza miasto ze wzgl?du na wielki remont dróg, jeste? bardzo wkurzony/-na i masz do??.\nTwoj? ostatni? nadziej? jest port, z którego dostaniesz si? do Gdyni a z Gdyni do twojego miasta docelowego.\n\n";
@@ -471,7 +471,7 @@ menu Hel_autobus()
 
 menu Hel_port()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     string pytanie;
     cout << "Po godzinie drogi nagle... O NIE, goni? Ci? te menele które chc? Ci? udusi? za te butelki kaucyjne\ni jakie?... dziwne stwory, co? pomi?dzy butelk? a cz?owiekiem\n";

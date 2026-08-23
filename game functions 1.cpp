@@ -15,7 +15,7 @@ using namespace std;
 
 menu gameRules()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     cout << "===Rules===";
     cout << "\nJe?li tu jeste? to oznacza ?e, grasz w to po raz pierwszy.\n";
@@ -45,7 +45,7 @@ menu gameRules()
 
 menu easy()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     int licznik = 0;
     int r = rand() % 100 + 1;
@@ -124,7 +124,7 @@ menu easy()
 
 menu medium()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     int licznik = 0;
     int r = rand() % 100 + 1;
@@ -205,7 +205,7 @@ menu medium()
 
 menu hard()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     int licznik = 0;
     int r = rand() % 100 + 1;
@@ -284,7 +284,7 @@ menu hard()
 
 menu extreme()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     int licznik = 0;
     int r = rand() % 100 + 1;
@@ -363,7 +363,7 @@ menu extreme()
 
 menu przejscieDoSecretWarunki()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(1250);
 
     string odpowiedz;
     string potwierdzenie;

@@ -4,30 +4,30 @@
 	{
 		"latarka",
 		"telefon",
-		"pieni¹dze",
+		"pieniadze",
 	};
 	
 	vector<string> umiejetnosciTurysta =
 	{
-    	"Szybkoœæ",
-    	"Du¿a iloœæ pieniêdzy",
-    	"£atwiej znajduje popularne atrakcje",
-    	"Potrafi przep³acaæ za praktycznie wszystko"
+	    	"Szybkosc",
+	    	"Duza ilosc pieniedzy",
+	    	"Latwiej znajduje popularne atrakcje",
+	    	"Potrafi przeplacac za praktycznie wszystko"
 	};
 
 	vector<string> umiejetnosciLokalny =
 	{
-    	"Dobra orientacja w terenie",
-    	"Kontakty z lokalnymi mieszkañcami",
-    	"Wiêksze zaufanie lokalnych postaci",
-    	"£atwiej zdobywa informacje o mieœcie"
+	    	"Dobra orientacja w terenie",
+	    	"Kontakty z lokalnymi mieszkancami",
+	    	"Wieksze zaufanie lokalnych postaci",
+	    	"Latwiej zdobywa informacje o miescie"
 	};
 
 	vector<string> umiejetnosciLosowy =
 	{
-	    "Wiêksze zaufanie lokalnych mieszkañców",
-	    "£atwiej nawi¹zuje kontakt z przypadkowymi osobami",
-	    "Brak znajomoœci miasta",
+	    "Wieksze zaufanie lokalnych mieszkancow",
+	    "Latwiej nawiazuje kontakt z przypadkowymi osobami",
+	    "Brak znajomosci miasta",
 	    "Brak specjalnych bonusów"
 	};
 
@@ -35,8 +35,8 @@
 	
 	vector<string> aktywneZadania =
 	{
-		"ZnajdŸ klucz od tajemniczych drzwi na dworcu",
-		"Pogadaj z lokalnymi mieszkañcami",
+		"Znajdz klucz od tajemniczych drzwi na dworcu",
+		"Pogadaj z lokalnymi mieszkancami",
 		"Wygraj walkê z menelami",
 		"Zdob¹dŸ w walce z menelami 25 butelek kaucyjnych",
 	};
